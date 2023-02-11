@@ -17,7 +17,7 @@ export default siteConfig({
   description: '67 notion site',
 
   // social usernames (optional)
-  twitter: 'QiruiLiu67',
+  // twitter: 'QiruiLiu67',
   // weibo: '',
   // github: 'transitive-bullshit',
   // linkedin: 'fisch2',
