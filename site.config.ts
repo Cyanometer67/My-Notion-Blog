@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '67 Archive',
-  domain: 'liuqirui.xyz',
+  domain: 'https://fair-sweater-507.notion.site/67-s-Blog-6f28534649dd41b6ab7d6192fd8c046d',
   author: 'Qirui',
 
   // open graph metadata (optional)
@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'QiruiLiu67',
-  weibo: '',
+  // weibo: '',
   // github: 'transitive-bullshit',
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
