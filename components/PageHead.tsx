@@ -26,12 +26,21 @@ export const PageHead: React.FC<
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
         name='viewport'
-        content='width=device-width, initial-scale=1, shrink-to-fit=no'
+        content='width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover'
       />
+
+      <meta name='apple-mobile-web-app-capable' content='yes' />
+      <meta
+        name='apple-mobile-web-app-status-bar-style'
+        content='black'
+      />
+
+      <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fefffe" key="theme-color-light"/>
+      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2d3439" key="theme-color-dark"/>
 
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
-
+      
       {site && (
         <>
           <meta property='og:site_name' content={site.name} />
@@ -39,24 +48,6 @@ export const PageHead: React.FC<
         </>
       )}
 
-      <meta name='theme-color' content='#EB625A' />
-      <meta property='og:type' content='website' />
-      <script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=G-V8D2K9MSEK`}
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-V8D2K9MSEK', {
-          page_path: window.location.pathname,
-        });
-        `
-        }}
-      />
       {config.twitter && (
         <meta name='twitter:creator' content={`@${config.twitter}`} />
       )}
