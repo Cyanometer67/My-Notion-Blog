@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '67 Archive',
-  domain: 'https://fair-sweater-507.notion.site/67-s-Blog-6f28534649dd41b6ab7d6192fd8c046d',
+  name: 'Qirui',
+  domain: 'blog.liuqirui.xyz',
   author: 'Qirui',
 
   // open graph metadata (optional)
-  description: '67 notion site',
+  description: 'Qirui's blog',
 
   // social usernames (optional)
   twitter: 'QiruiLiu67',
