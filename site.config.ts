@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Qirui',
 
   // open graph metadata (optional)
-  description: 'Qirui's blog',
+  description: 'Qirui blog',
 
   // social usernames (optional)
   twitter: 'QiruiLiu67',
